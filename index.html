@@ -1,23 +1,25 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-br">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Pokedex</title>
-    <link href="estilo.css" rel="stylesheet">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Pokédex</title>
+  <link rel="stylesheet" href="estilo.css">
 </head>
 <body>
-    <div class="container">
-        <h1>Pokedex</h1>
-
-        <div class="busca-box">
-            <input type="text" id="busca" placeholder="Digite o nome ou número do Pokémon">
-            <button id="btnBusca">Buscar</button>
-        </div>
-
-        <div id="pokemon-info" class="pokemon-info">
-        </div>
+  <div class="container">
+    <h1>Pokédex</h1>
+    
+    <div class="search-box">
+      <input type="text" id="search" placeholder="Digite o nome ou número do Pokémon">
+      <button id="searchBtn">Buscar</button>
     </div>
-    <script src="script.js"></script>
+
+    <div id="pokemon-info" class="pokemon-info">
+      <!-- Aqui serão exibidas as informações do Pokémon -->
+    </div>
+  </div>
+  
+  <script src="script.js"></script>
 </body>
 </html>
